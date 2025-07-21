@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.paper{
+    padding: 100px;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: 100;
+    background-image: url('data:image/jpeg;base64,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');
+    background-position: center center;
+}
+.paper{
+    background-image: url("https://thumbs.dreamstime.com/b/pink-birthday-invitation-balloons-confetti-festive-celebration-background-themed-featuring-elegant-scattered-327615440.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 20px, 100px;
+
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+    border: 5px solid rgb(234, 183, 220);
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    cursor: grab;
+
+    
+}
+.paper.heart{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+
+
+.paper.image{
+    padding: 50px;
+    
+}
+
+.paper.image p{
+    font-size: 20px;
+}
+
+img{
+    max-height: 150%;
+    width: 150%;
+    user-select: none;
+    
+}
+
+.paper.image.png{
+    padding: 50px;
+}
+
+img{
+    max height: 100px;
+    width: 100%;
+} 
+
+
+.paper.heart::after{
+    content: "";
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIbjnCo2l9kRi4XI597zCwPXuleE6h8d3-Vg&s");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 150px ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+p{
+    font-family: "Indie Flower";
+    font-size: 1000px;
+    color: rgb(255, 255, 255);
+    opacity: 0.75;
+    user-select: none;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
