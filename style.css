@@ -59,8 +59,8 @@ img{
     
 }
 .paper video{
-    max-height: 170%;
-    width: 170%;
+    max-height: 50%;
+    width: 50%;
     user-select: none;
 }
 
