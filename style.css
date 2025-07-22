@@ -58,6 +58,11 @@ img{
     user-select: none;
     
 }
+.paper video{
+    max-height: 170%;
+    width: 170%;
+    user-select: none;
+}
 
 .paper.image.png{
     padding: 50px;
